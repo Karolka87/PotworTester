@@ -11,19 +11,19 @@ public class PotworTester {
     }
 }
 class Potwor {
-    boolean strasz(int z) {
+    boolean strasz(int x) {
         System.out.println("ałłuuu");
         return true;
     }
 }
 class Wampir extends Potwor {
-    boolean strasz(byte b) {
+    boolean strasz(int f) {
         System.out.println("można gryza?");
         return true;
     }
 }
 class Smok extends Wampir {
-    boolean strasz (int stopien) {
+    boolean strasz(int stopien) {
         System.out.println("zioń ogniem");
         return true;
     }
